@@ -26,11 +26,18 @@
 
 ## Funcionalidade
 <p align="justify">
-  A lógica do dicionário consiste em 5 operações: inserção de palavras e suas definições, bsucá-las, remove-las, alterar a definição (ou seja o significado) de uma palavra já inserida e imprimir a lista de palavras inseridas que começem com uma inicial informada pelo usuário. Para isso, foram utilizados dois TADs: o Item, que consiste na string verbete (a palavra em si) e definição (o seu significado) e a SkipList que os armazenará ordenadamente.
+  A lógica do dicionário consiste em 5 operações: inserção de palavras e suas definições, buscá-las, remove-las, alterar a definição (ou seja o significado) de uma palavra já inserida e imprimir a lista de palavras inseridas que começem com uma inicial informada pelo usuário. Para isso, foram utilizados dois TADs: o Item, que consiste na string verbete (a palavra em si) e definição (o seu significado) e a SkipList que os armazenará ordenadamente.
 </p>
 <p align="justify">
-  Para que o usuário possa executar os comandos, foi criado um loop que lê, por meio da função "scanf()" a operaçao que o usuário deseja executar, até que ele digite EOF. Assim, os comandos que ele pode executar são:
-  
+  Assim, o usuário executa essas operações por meio da entrada dos seguintes comandos:
+  - insercao <verbete> <definicao>
+  - busca <verbete>
+  - remocao <verbete>
+  - alteracao <verbete> <nova_descrição>
+  - impressao <letra_inicial>
+</p>
+<p align="justify">
+  Além disso, EOF é utilizado como comando de parada para o programa, e caso o usuário tente realizar alguma operação invalidada em um dadao momento (como apagar, busca ou alterar um item inexistente, tentar reinserir uma mesma palavra)
 </p>
 
 ## Implementação
