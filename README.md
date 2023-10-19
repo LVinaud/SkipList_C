@@ -37,10 +37,11 @@
   - impressao <letra_inicial>
 </p>
 <p align="justify">
-  Além disso, EOF é utilizado como comando de parada para o programa, e caso o usuário tente realizar alguma operação invalidada em um dadao momento (como apagar, busca ou alterar um item inexistente, tentar reinserir uma mesma palavra)
+  Além disso, EOF é utilizado como comando de parada para o programa, e caso o usuário tente realizar alguma operação invalidada em um dadao momento (apagar, buscar ou alterar um item inexistente e tentar reinserir uma mesma palavra) será retornada a mensagem: "operação inválida" e caso ele tente imprimir a lista de palavras de uma determinada letra, mas não houver nenhuma palavra que inicie com essa letra armazenada será impressa a mensagem: "Nao ha palavras que iniciam com a letra __".
 </p>
 
 ## Implementação
 
 ## Desenvolvedores
-
+- Lazaro Pereira Vinald
+- Gabriel Antunes Afnso de Araujo
